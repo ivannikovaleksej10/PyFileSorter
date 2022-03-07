@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to PyFileSorter
 
-You can use the [editor on GitHub](https://github.com/moblamobla/PyFileSorter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Quick start
+Open **extensions.py**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Set up a dictionary for your sorting method.
 
-### Markdown
+**Key** - folder name, **value** - list of file extensions for this folder.
+```python
+# key names will be folder names!
+extensions = {
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    'video': ['mp4', 'mov', 'avi', 'mkv'],
 
-```markdown
-Syntax highlighted code block
+    'audio': ['mp3', 'wav', 'ogg'],
 
-# Header 1
-## Header 2
-### Header 3
+    'image': ['jpg', 'png', 'bmp', 'ai', 'psd', 'ico', 'jpeg', 'svg'],
 
-- Bulleted
-- List
+    'archive': ['zip', 'rar', '7z', 'z', 'gz'],
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    # 'folder-name': ['extension-name', 'another-extension']
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/moblamobla/PyFileSorter/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Open **main.py** 
