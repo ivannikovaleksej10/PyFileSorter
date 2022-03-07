@@ -1,7 +1,8 @@
 # PyFileSorter
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/moblamobla/PyFileSorter)
-![GitHub repo size](https://img.shields.io/github/repo-size/moblamobla/PyFileSorter)
+![GitHub repo size](https://img.shields.io/github/size/moblamobla/PyFileSorter/main.py)
+![GitHub license](https://img.shields.io/github/license/moblamobla/PyFileSorter)
 
 Python script for sorting files into folders with flexible configuration
 
