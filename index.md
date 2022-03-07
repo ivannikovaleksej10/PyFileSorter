@@ -1,5 +1,3 @@
-## Welcome to PyFileSorter
-
 ## Quick start
 Open **extensions.py**
 
