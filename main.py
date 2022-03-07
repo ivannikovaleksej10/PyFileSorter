@@ -9,8 +9,7 @@ init(autoreset=True)
 
 console_picture()
 
-print('Write main path:')
-main_path = input()
+main_path = input("Write main path:")
 
 
 def create_folders_from_list(folder_path, folder_names):
